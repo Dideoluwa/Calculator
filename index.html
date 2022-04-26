@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section>
+        <p id="oni">Designed by Dideoluwa Oni (DOn)</p>
+        <header class="links">
+            <ul>
+                <li><a href="https://twitter.com/theDarasimi" target="blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/thedarasimi_/" target="blank">Instagram</a></li>
+                <li><a href="mailto:darasimidideoluwa@gmail.com" target="blank">EMAIL</a></li>
+            </ul>
+        </header>
+       <p id="heading">Simple calculator</p>
+       <div class="container">
+           <div class="calc">
+               <input type="text" id="inputtext" placeholder="0">
+               <button onclick="clr()">C</button>
+               <button onclick="del()">DEL</button>
+               <button onclick="per('%')">%</button>
+               <button onclick="calculate('/')">/</button>
+               <button onclick="calculate(7)">7</button>
+               <button onclick="calculate(8)">8</button>
+               <button onclick="calculate(9)">9</button>
+               <button onclick="calculate('*')">*</button>
+               <button onclick="calculate(4)">4</button>
+               <button onclick="calculate(5)">5</button>
+               <button onclick="calculate(6)">6</button>
+               <button onclick="calculate('-')">-</button>
+               <button onclick="calculate(1)">1</button>
+               <button onclick="calculate(2)">2</button>
+               <button onclick="calculate(3)">3</button>
+               <button onclick="calculate('+')">+</button>
+               <button onclick="calculate('.')">.</button>
+               <button onclick="calculate(0)">0</button>
+               <button id="raise" onclick="calculate('**')">^</button>
+               <button class='equal' onclick="sum()">=</button>
+           </div>
+       </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
